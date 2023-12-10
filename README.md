@@ -18,10 +18,24 @@ TODO:
 - [X] try without amsgrad. Result: keep false
 - [X] try reward combo of 2 and 4. Works great but still not getting distribution. just maximizing
 
+TODO for Report:
+- [ ] run positive reward and save
+- [ ] build classical gflownet for comparison
+- [ ] time per epoch
+- [ ] run on ideal and nonideal simulator
+- [ ] save P_f distributions for quantum and classical 
+
+
 
 What is running?
--  reverse reward
+-  noisy circuit smiley
 
 What is working?
 - works for both smile and frown. 
 - maximizes instead of proportional rewards
+
+
+| Model       | Total Training Time | Average Episode Time (s) | Number of Training Epochs |
+|-------------|---------------------|-----------------------|---------------------------|
+| Quantum     |        TBD          |         TBD           |         50000               |
+| Classical   |        4:09          |         0.00268      |         50000               |
